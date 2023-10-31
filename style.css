@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: #FFFFFF;
+    --red: #EC2F46;
+    --background: #00080e;
+    --button: #167BF7;
+    --grey: #C0C0C0;
+    --font: 'Inter';
+}
+
+body {
+   background-color: var(--background);
+   font-family: 'Inter'
+}
+
+body h1 {
+    color: var(--white);
+}
+
+
+.box {
+    margin: 0 10em 0 10em;
+    display: flex;
+}
+
+.box_div {
+    margin: 20em 0 0 5em;
+    text-align: center;
+    align-items: center;
+}
+
+.hero_img {
+    margin: 12em 5em 15em 0em;
+}
+
+
+.combo_image {
+    margin: 2em 0 2em 0;
+}
+
+
+.box_button {
+    background-color: var(--button);
+    padding: 18px;
+    border-radius: 5px;
+    color: var(--white);
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.box_button a:hover {
+    color: var(--grey);
+}
+
+.box_button2 {
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid var(--white);
+    padding: 18px;
+    margin-top: 18px;
+    border-radius: 5px;
+    color: var(--white);
+    display: block;
+    text-decoration: none;
+}
+
+#aviso_botao2 {
+    font-size: 12px;
+    color: var(--grey);
+    font-family: 'Inter';
+    margin-top: 8px;
+}
+
+.secundario {
+    align-items: center;
+}
+
+.plataformas {
+    margin: 0 10em 0 10em;
+}
+
+.plataformas img {
+    width: 40%;
+    margin-right: 5em;
+}
+
+.box_div_secundario h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white);
+}
+
+.box_div_secundario p {
+    color: var(--grey);
+    font-size: 16px;
+}
+
+.botao_assine {
+    font-size: 16px;
+    margin-top: 1em;
+    display: inline-block;
+}
+ .telas_img {
+    margin-left: 5em;
+    width: 50%;
+ }
+
+ .telas {
+    margin: 15em 10em;
+ }
+
+ .notebook {
+    margin: 15em 10em;
+ }
+
+ .dispositivos {
+    margin: 7em 10em;
+    align-items: center;
+    text-align: center;
+ }
+ 
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.dispositivos h1 {
+    font-size: 48px;
+}
+.dispositivos_lista h2 {
+    color: var(--white);
+    font-size: 32px;
+}
+
+.rodape {
+    margin: 5em 5em;
+    text-align: center;
+    align-items: center;
+    font-family: 'Inter'
+}
+
+
+.rodape_lista {
+    margin-top: 2em;
+    justify-content: center;
+    display: flex;
+}
+
+
+.link a {
+    color: var(--white);
+    margin-right: 1em;
+    font-size: 16px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: var(--button);
+}
+
+
+.p_rodape {
+    margin: 2em 0;
+    color: var(--grey);
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
